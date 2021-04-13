@@ -4,8 +4,8 @@ import Body from "./components/body";
 function App() {
   return (
     <>
-        <Top/>
-        <Body />
+      <Top />
+      <Body />
     </>
   );
 }
