@@ -4,7 +4,8 @@ import Col from "react-bootstrap/Col";
 
 function Home() {
   return (
-    <Row id={"home"} className={"home-row mb-5"}>
+    <Row className={"home-row mb-5"}>
+      <a className="anchor" id="home" />
       <Col xs={6} md={7} xl={8} />
       <Col className={"home-wrapper"}>
         <div className={"p-4 home-inner"}>

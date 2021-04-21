@@ -4,7 +4,8 @@ import Card from "react-bootstrap/Card";
 
 function TravelInfo() {
   return (
-    <Row id={"travelInfo"} className={"justify-content-center mb-5"}>
+    <Row className={"justify-content-center mb-5"}>
+      <a className="anchor" id="travelInfo" />
       <Col xs={12} md={6}>
         <Card>
           <Card.Body>

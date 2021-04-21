@@ -115,7 +115,8 @@ function WeddingGift() {
 
 function InfoCards() {
   return (
-    <div id={"info"}>
+    <section>
+      <a className="anchor" id="info" />
       <Row className={"justify-content-center"}>
         <Covid19 />
         <Accomodation />
@@ -126,7 +127,7 @@ function InfoCards() {
         <Dresscode />
         <WeddingGift />
       </Row>
-    </div>
+    </section>
   );
 }
 

@@ -4,7 +4,8 @@ import Card from "react-bootstrap/Card";
 
 function Harmonogram() {
   return (
-    <Row id={"harmonogram"} className={"justify-content-center mb-5"}>
+    <Row className={"justify-content-center mb-5"}>
+      <a className="anchor" id="harmonogram" />
       <Col xs={12} sm={9} md={6}>
         <Card>
           <Card.Body>
