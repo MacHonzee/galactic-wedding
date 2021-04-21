@@ -6,7 +6,7 @@ import TravelInfo from "./travel-info";
 
 function Body() {
   return (
-    <Container className={"app-body"} fluid>
+    <Container fluid>
       <Home />
       <Harmonogram />
       <InfoCards />
