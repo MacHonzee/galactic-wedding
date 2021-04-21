@@ -6,9 +6,15 @@ function Home() {
   return (
     <Row className={"home-row mb-5"}>
       <a className="anchor" id="home" />
-      <Col xs={6} md={7} xl={8} />
-      <Col className={"home-wrapper"}>
-        <div className={"p-4 home-inner rounded-lg"}>
+      <Col
+        xs={{ span: 12 }}
+        sm={{ span: 6, offset: 6 }}
+        md={{ span: 5, offset: 7 }}
+        lg={{ span: 4, offset: 7 }}
+        xl={{ span: 4, offset: 7 }}
+        className={"home-wrapper"}
+      >
+        <div className={"p-4 home-text text-white rounded-lg"}>
           <h1>HONZA A ROMČA</h1>
           <h2>galaktická svatba</h2>
           <h3>statek Stodola, Lázně Libverda</h3>

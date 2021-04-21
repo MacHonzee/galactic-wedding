@@ -10,7 +10,7 @@ function LazyMap() {
   }
 
   return (
-    <div ref={ref} className={"embed-responsive embed-responsive-4by3"}>
+    <div ref={ref} className={"embed-responsive embed-responsive-4by3 shadow"}>
       {loaded && (
         <iframe
           title={"mapy-cz"}

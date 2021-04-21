@@ -2,10 +2,12 @@ import Row from "react-bootstrap/Row";
 import Card from "react-bootstrap/Card";
 import InfoCard from "./info-card";
 import Corona from "../assets/corona.jpg";
+import Col from "react-bootstrap/Col";
+import Container from "react-bootstrap/Container";
 
 function Covid19() {
   return (
-    <InfoCard header={"COVID-19 varování"} img={Corona}>
+    <InfoCard header={"COVID-19 varování"}>
       <Card.Text>
         Vzhledem k nestále situaci a počtu hostů si vás dovolujeme upozornit, že
         se datum svatby ještě může změnit. O finálním termínu bychom však měli
@@ -104,9 +106,9 @@ function WeddingGift() {
   return (
     <InfoCard header={"Svatební dar"}>
       <Card.Text>
-        Nenoste nám prosím věcné a jiné hmotné dary (leda tekuté). Oceníme
-        mnohem více klidný průběh svatby a bujarou veselku, než odnášet domů 10
-        kávovarů a 500 talířů.
+        Nenoste nám prosím věcné a jiné hmotné dary. Oceníme mnohem více klidný
+        průběh svatby a bujarou veselku, než odnášet domů 10 kávovarů a 500
+        talířů.
       </Card.Text>
       <Card.Text>Prachy jsou ale ok 😁 💲 💲 💲</Card.Text>
     </InfoCard>
@@ -115,19 +117,17 @@ function WeddingGift() {
 
 function InfoCards() {
   return (
-    <section>
-      <a className="anchor" id="info" />
-      <Row className={"justify-content-center"}>
+    <Container>
+      <Row>
+        <a className="anchor" id="info" />
         <Covid19 />
         <Accomodation />
         <FoodAndDrinks />
-      </Row>
-      <Row className={"justify-content-center"}>
         <GalacticTheme />
         <Dresscode />
         <WeddingGift />
       </Row>
-    </section>
+    </Container>
   );
 }
 
