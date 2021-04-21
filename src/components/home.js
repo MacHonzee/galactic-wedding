@@ -8,7 +8,7 @@ function Home() {
       <a className="anchor" id="home" />
       <Col xs={6} md={7} xl={8} />
       <Col className={"home-wrapper"}>
-        <div className={"p-4 home-inner"}>
+        <div className={"p-4 home-inner rounded-lg"}>
           <h1>HONZA A ROMČA</h1>
           <h2>galaktická svatba</h2>
           <h3>statek Stodola, Lázně Libverda</h3>

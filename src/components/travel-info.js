@@ -1,6 +1,7 @@
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
+import LazyMap from "./lazy-map";
 
 function TravelInfo() {
   return (
@@ -15,15 +16,7 @@ function TravelInfo() {
         </Card>
       </Col>
       <Col xs={12} md={6}>
-        <div className={"embed-responsive embed-responsive-4by3"}>
-          <iframe
-            title={"mapy-cz"}
-            className={"embed-responsive-item"}
-            style={{ border: "none" }}
-            src="https://frame.mapy.cz/s/gurelelaha"
-            frameBorder="0"
-          />
-        </div>
+        <LazyMap />
       </Col>
     </Row>
   );
