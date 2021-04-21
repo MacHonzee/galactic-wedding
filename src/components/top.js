@@ -10,11 +10,11 @@ function Top() {
       expand={"md"}
       collapseOnSelect
     >
-      <Navbar.Brand href="#home">Galaktická svatba</Navbar.Brand>
+      <Navbar.Brand href="#home">GALAKTICKÁ SVATBA</Navbar.Brand>
 
       <Navbar.Toggle />
 
-      <Navbar.Collapse className="justify-content-end" id="basic-navbar-nav">
+      <Navbar.Collapse className="justify-content-end">
         <Nav>
           <Nav.Link href="#home">Úvod</Nav.Link>
           <Nav.Link href="#harmonogram">Harmonogram</Nav.Link>
