@@ -9,8 +9,14 @@ function Harmonogram() {
         <Card>
           <Card.Body>
             <Card.Title>Harmonogram</Card.Title>
+            <Card.Text>Přesný harmonogram je zatím neznámý.</Card.Text>
             <Card.Text>
-              Harmonogram je zatím neznámý a bude doplněn as ASAP as possible
+              Svatba ale bude v neformálním stylu. Nečekejte dlouhé děkovačky,
+              dlouhé proslovy, společnou hostinu, rozbíjení talířů, házení rýže.
+            </Card.Text>
+            <Card.Text>
+              Určitě bude obřad ve 12:00. Poté nějaké focení a volná zábava a
+              tanec.
             </Card.Text>
           </Card.Body>
         </Card>
