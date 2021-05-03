@@ -5,10 +5,10 @@ import Container from "react-bootstrap/Container";
 
 function Harmonogram() {
   return (
-    <Container>
-      <Row className={"justify-content-center mb-4"}>
+    <Container className={"mb-4"}>
+      <Row className={"justify-content-center"}>
         <a className="anchor" id="harmonogram" />
-        <Col xs={12} sm={9} md={6}>
+        <Col xl={6} md={9} xs={12}>
           <Card className={"shadow"}>
             <Card.Body>
               <Card.Title>Harmonogram</Card.Title>
