@@ -1,8 +1,6 @@
 import Row from "react-bootstrap/Row";
 import Card from "react-bootstrap/Card";
 import InfoCard from "./info-card";
-import Corona from "../assets/corona.jpg";
-import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
 
 function Covid19() {
@@ -30,7 +28,7 @@ function Accomodation() {
         vyvalit na louku a doufat, že nezaprší.
       </Card.Text>
       <Card.Text>
-        Pro méně odvážné a nedůvěřivé červnovému počasí lze využít například
+        Pro méně odvážné a nedůvěřivé červencovému počasí lze využít například
         tyto penziony:
       </Card.Text>
       <ul>
