@@ -7,13 +7,17 @@ function Covid19() {
   return (
     <InfoCard header={"COVID-19 varování"}>
       <Card.Text>
-        Vzhledem k nestále situaci a počtu hostů si vás dovolujeme upozornit, že
-        se datum svatby ještě může změnit. O finálním termínu bychom však měli
-        mít rozhodnuto nejpozději v půlce května.
+        Pozor, termín byl kvůli COVID-19 upraven a pokud máte tištěnou pozvánku,
+        tak je na ní staré neplatné datum. Určitě platí 17. července v 10:00!
       </Card.Text>
       <Card.Text>
-        Na celé svatbě budou samozřejmě dodržována platná pravidla a hygienická
-        doporučení, testy budou nepovinné.
+        Pevně doufáme, že už se potřetí termín přesouvat nebude, a že nám to
+        nastálá situace dovolí uspořádat v duchu, jakém jsme si to
+        představovali.
+      </Card.Text>
+      <Card.Text>
+        Na celé svatbě budou samozřejmě dodržována platná hygienická pravidla a
+        opatření.
       </Card.Text>
     </InfoCard>
   );
@@ -90,7 +94,8 @@ function Dresscode() {
       </Card.Text>
       <Card.Text>
         Konzervatitní varianta jsou kalhoty, košile a VANSky, nebo sukně a
-        Conversky.
+        Conversky. Tepláky by ale asi byly blbý, leda, že by byly s planetkama.
+        Třeba ženich bude mít kraťasy, košili a motýlka.
       </Card.Text>
       <Card.Text>
         Vítaná varianta jsou tykadla, svítící bambule, světelný meč nebo helma
@@ -117,7 +122,7 @@ function InfoCards() {
   return (
     <Container>
       <Row>
-        <a className="anchor" id="info" />
+        <span className="anchor" id="info" />
         <Covid19 />
         <Accomodation />
         <FoodAndDrinks />

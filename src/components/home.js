@@ -5,7 +5,7 @@ import Col from "react-bootstrap/Col";
 function Home() {
   return (
     <Row className={"home-row mb-5"}>
-      <a className="anchor" id="home" />
+      <span className="anchor" id="home" />
       <Col
         xs={{ span: 12 }}
         sm={{ span: 6, offset: 6 }}
