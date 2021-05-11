@@ -18,7 +18,7 @@ function Home() {
           <h1>HONZA A ROMČA</h1>
           <h2>galaktická svatba</h2>
           <h3>statek Stodola, Lázně Libverda</h3>
-          <h3>17.07.2021 ve 10:00</h3>
+          <h3>17.07.2021 v 10:00</h3>
         </div>
       </Col>
     </Row>

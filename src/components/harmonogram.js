@@ -19,7 +19,7 @@ function Harmonogram() {
                 házení rýže.
               </Card.Text>
               <Card.Text>
-                Určitě bude obřad ve 10:00. Poté nějaké focení a volná zábava a
+                Určitě bude obřad v 10:00. Poté nějaké focení a volná zábava a
                 tanec.
               </Card.Text>
             </Card.Body>
