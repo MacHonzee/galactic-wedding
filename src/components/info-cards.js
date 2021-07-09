@@ -7,17 +7,21 @@ function Covid19() {
   return (
     <InfoCard header={"COVID-19 varování"}>
       <Card.Text>
-        Pozor, termín byl kvůli COVID-19 upraven a pokud máte tištěnou pozvánku,
-        tak je na ní staré neplatné datum. Určitě platí 17. července v 10:00!
+        Dle aktuálních opatření je nutné prokázat bezinfekčnost, nicméně ani
+        jako pořadatelé nemáme právo to kontrolovat, to pouze hygiena a policie.
+        A ti zvaní nejsou.
       </Card.Text>
       <Card.Text>
-        Pevně doufáme, že už se potřetí termín přesouvat nebude, a že nám to
-        nastálá situace dovolí uspořádat v duchu, jakém jsme si to
-        představovali.
+        K potvrzení o bezinfekčnosti stačí i čestné prohlášení o samotestu,
+        formuláře budou připraveny pro jistotu na místě.
       </Card.Text>
       <Card.Text>
-        Na celé svatbě budou samozřejmě dodržována platná hygienická pravidla a
-        opatření.
+        Bližší informace zde:{" "}
+        <Card.Link
+          href={"https://covid.gov.cz/situace/zivotni-udalosti/svatba"}
+        >
+          Svatba - Covid portál
+        </Card.Link>
       </Card.Text>
     </InfoCard>
   );

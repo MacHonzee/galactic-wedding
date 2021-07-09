@@ -12,16 +12,21 @@ function Harmonogram() {
           <Card className={"shadow"}>
             <Card.Body>
               <Card.Title>Harmonogram</Card.Title>
-              <Card.Text>Přesný harmonogram je zatím neznámý.</Card.Text>
               <Card.Text>
-                Svatba ale bude v neformálním stylu. Nečekejte žádné dlouhé
-                děkovačky, dlouhé proslovy, společnou hostinu, rozbíjení talířů,
-                házení rýže.
+                Úpravy časového plánu podřízeny průměrným promilím hostů i
+                svatebčanů.
               </Card.Text>
-              <Card.Text>
-                Určitě bude obřad v 10:00. Poté nějaké focení a volná zábava a
-                tanec.
-              </Card.Text>
+              <ul>
+                <li>10:00 - Obřad</li>
+                <li>10:30 - Přípitek</li>
+                <li>10:50 - Společné focení</li>
+                <li>12:00 - Obědový raut</li>
+                <li>13:00 - Focení novomanželů</li>
+                <li>
+                  15:00 - Tanec novomanželů, házení kytice, sundávání podvazku
+                </li>
+                <li>18:00 - Večerní raut</li>
+              </ul>
             </Card.Body>
           </Card>
         </Col>

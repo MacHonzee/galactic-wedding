@@ -25,8 +25,12 @@ function TravelInfo() {
               </Card.Text>
               <Card.Text>
                 Důvodem je i omezenější parkování, které je možné buď na
-                přilehlých cestách v okolí, nebo na placeném parkovišti cca 1km
-                chůze z centra Lázní Libverda.
+                přilehlých cestách a loukách v okolí, nebo na placeném
+                parkovišti cca 1km chůze z centra Lázní Libverda.
+              </Card.Text>
+              <Card.Text>
+                Místa přímo před stodolou jsou rezervována pro svatebčany a pro
+                catering.
               </Card.Text>
             </Card.Body>
           </Card>
